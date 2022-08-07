@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Fraunces:opsz,wght@9..144,300&family=Montserrat&family=Outfit&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    background-color: #FAFAFA;
+}
+.container{
+    margin: 5%;
+}
+.efficient_delivery{
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 200;
+    color: gray;
+}
+.technology{
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 32px;
+}
+.description{
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: gray;
+}
+.cards{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    max-height: auto;
+    justify-content: center;
+}
+.card{
+    margin: 2.2%;
+    width: 23.3%;
+    height: 215px;
+    border-radius: 10px;
+    border-top: 5px solid;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 30px #585757;
+    position: relative;
+    padding: 2.5%;
+}
+.title{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 22px;
+}
+.card_description{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}
+.icon{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+#supervisor{
+    border-color: #44D3D2;
+    transform: translateY(50%);
+}
+#team_builder{
+    border-color: #EB5354;
+}
+#calculator{
+    border-color: #589CEA;
+    transform: translateY(50%);
+}
+#karma{
+    border-color: #FBAD4A;
+}
+@media only screen and (max-width:700px){
+    .cards{
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        max-width: 700px;
+        max-height: auto;
+        justify-content: center;
+    }
+    .card{
+        width: 95%;
+    }
+    #calculator{
+        transform: translateY(0%);
+    }
+    #supervisor{
+        transform: translateY(0%);
+    }
+}
